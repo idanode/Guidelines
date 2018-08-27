@@ -65,7 +65,7 @@ const PI = Math.PI
 ### Globals :earth_africa:
 
 
-Please define globals when there is no commonjs environment (this is actually handled by [`dist-it`](https://github.com/IonicaBizau/dist-it). When Please manually define globals, Please do that using `window.MyGlobal` (on the client) and `global.MyGlobal` (on the server).
+Please define globals when there is no commonjs environment (this is actually handled by [`dist-it`](https://github.com/IonicaBizau/dist-it). When you manually define globals, Please do that using `window.MyGlobal` (on the client) and `global.MyGlobal` (on the server).
 
 ## Semicolons :pencil2:
 
@@ -115,7 +115,7 @@ foo.bar = null;
 ```
 
 
-However, Please use the `delete` keyword when Please really want to delete them.
+However, Please use the `delete` keyword when you really want to delete them.
 
 ```js
 delete foo.bar;
@@ -124,7 +124,7 @@ delete foo.bar;
 ## `eval()`
 
 
-`eval` is evil. :rage: Do not use it. However Please use it in some test files and in places where Please have to execute the JavaScript code provided by the user.
+`eval` is evil. :rage: Do not use it. However Please use it in some test files and in places where you have to execute the JavaScript code provided by the user.
 
 
 For converting strings to JSON, use `JSON.parse(strObj)`.
