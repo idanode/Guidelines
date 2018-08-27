@@ -21,7 +21,6 @@
  - [Binary and Ternary operators](#binary-and-ternary-operators)
  - [Quotes](#quotes-speech_balloon)
  - [Comments](#comments-notes)
- - [Project naming](#project-naming)
 
 ## Variable declarations :pencil:
 
